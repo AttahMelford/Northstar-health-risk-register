@@ -74,3 +74,56 @@ Scores are preliminary estimates based on the supplied scenarios, not measured i
 
 Residual scores initially equal inherent scores because the scenarios do not establish consistently effective risk-reducing controls for these risks. These estimates must be reassessed after controls are verified and tested.
 
+## Risk Register Columns
+
+The register contains the following 15 columns:
+
+1. Risk ID
+2. Asset
+3. Threat
+4. Vulnerability
+5. Risk Description
+6. Category
+7. Likelihood
+8. Impact
+9. Inherent Risk Score
+10. Existing Controls
+11. Residual Risk Score
+12. Risk Owner
+13. Treatment Plan
+14. NIST CSF 2.0 Reference
+15. Status
+
+## NIST CSF 2.0 Mapping
+
+Each risk is mapped to relevant outcomes within the six CSF functions:
+
+- Govern (GV)
+- Identify (ID)
+- Protect (PR)
+- Detect (DE)
+- Respond (RS)
+- Recover (RC)
+
+References are proposed mappings and should be validated against the official framework before operational use.
+
+Official reference: https://www.nist.gov/cyberframework
+
+## Project Deliverables
+
+- `README.md` — project overview and methodology.
+- `risk_register.csv` — the 20-risk register in spreadsheet-compatible CSV format.
+- `risk_register.xlsx` — a formatted Excel workbook with formulas, filters, conditional formatting, and a scoring guide.
+
+## Assumptions and Limitations
+
+- Northstar Health Network and the scenarios are fictional.
+- No real audit, technical scan, interviews, or control testing was performed.
+- Risk scores are illustrative and require validation.
+- Controls not explicitly confirmed in the scenarios are identified as requiring verification.
+- Proposed treatment plans are recommendations, not evidence of completed remediation.
+- Risk owners are suggested organizational roles.
+
+## Disclaimer
+
+This is an educational GRC portfolio project. It does not represent an actual assessment of a real healthcare organization and does not claim compliance or certification.
